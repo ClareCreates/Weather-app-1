@@ -8,21 +8,21 @@ h1 {
   color: rgb(64, 82, 148);
 }
 h2 {
-  color: rgb(55, 97, 248);
+  color: rgb(64, 82, 148);
   font-size: 34px;
 }
 h3 {
-  color: rgb(55, 97, 248);
+  color: rgb(64, 82, 148);
   font-size: 18px;
 }
 h4 {
-  color: rgb(55, 97, 248);
-  font-size: 25px;
+  color: rgb(64, 82, 148);
+  font-size: 20px;
 }
 
 h5,
 h6 {
-  color: rgb(55, 97, 248);
+  color: rgb(64, 82, 148);
 }
 .search-bar {
   border-color: rgb(55, 97, 248);
@@ -47,6 +47,19 @@ h6 {
 .col-2 {
   text-align: center;
   border-style: none;
+}
+
+.date {
+  color: rgb(64, 82, 148);
+}
+
+.celcius-link {
+  color: rgb(64, 82, 148);
+}
+.temperature {
+  color: rgb(64, 82, 148);
+  font-size: 30px;
+  font-weight: 600;
 }
 
 footer {

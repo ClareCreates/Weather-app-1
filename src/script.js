@@ -22,7 +22,6 @@ function TimeFormat(dayTime) {
 
   return `${day} ${hour}:${minute}`;
 }
-
 function showTemperature(response) {
   document.querySelector("#city").innerHTML = response.data.name;
   document.querySelector("#temperature").innerHTML = Math.round(
@@ -30,6 +29,14 @@ function showTemperature(response) {
   );
   document.querySelector("#description").innerHTML =
     response.data.weather[0].main;
+  console.log(response.data);
+  document.querySelector("#wind").innerHTML = Math.round(
+    response.data.wind.speed
+  );
+  icon.setAttribute(
+    "src",
+    ` https://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
+  );
 }
 function searchCity(city) {
   let apiKey = "7e2b97d3e917c6fbf240fd23eb4501d0";
