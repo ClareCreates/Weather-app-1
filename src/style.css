@@ -5,24 +5,24 @@
   margin-left: 60px;
 }
 h1 {
-  color: rgb(64, 82, 148);
+  color: rgb(55, 97, 248);
 }
 h2 {
-  color: rgb(64, 82, 148);
+  color: rgb(55, 97, 248);
   font-size: 34px;
 }
 h3 {
-  color: rgb(64, 82, 148);
+  color: rgb(55, 97, 248);
   font-size: 18px;
 }
 h4 {
-  color: rgb(64, 82, 148);
+  color: rgb(55, 97, 248);
   font-size: 20px;
 }
 
 h5,
 h6 {
-  color: rgb(64, 82, 148);
+  color: rgb(55, 97, 248);
 }
 .search-bar {
   border-color: rgb(55, 97, 248);
@@ -49,21 +49,16 @@ h6 {
   border-style: none;
 }
 
-.date {
-  color: rgb(64, 82, 148);
-}
-
-.celcius-link {
-  color: rgb(64, 82, 148);
-}
 .temperature {
-  color: rgb(64, 82, 148);
+  color: rgb(55, 97, 248);
   font-size: 30px;
   font-weight: 600;
 }
-
+strong {
+  color: rgb(243, 34, 166);
+}
 footer {
-  color: rgb(232, 70, 151);
+  color: rgb(230, 142, 199);
   margin-left: 75px;
   padding-top: 15px;
 }
